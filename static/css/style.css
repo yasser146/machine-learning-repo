@@ -1,0 +1,143 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    min-height: 100vh;
+    background-color: #EEE;
+    text-transform: capitalize;
+}
+.nav
+{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    margin-left: -126px;
+}
+.nav img
+{
+    width: 133px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+    position: relative;
+    top: 8px;
+}
+.nav span
+{
+    font-size: 44px;
+    position: relative;
+    top: -44px;
+    letter-spacing: 3px;
+    font-family: 'EB Garamond', serif;
+}
+.analasis
+{
+    width: 65%;
+    margin: 46px auto;
+    padding-top: 57px;
+    border: 1px solid #d4d1d1;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 9px 11px 5px 1px #ccc5cf;
+    margin-bottom: 20px;
+}
+.row
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    position: relative;
+    left: 64px;
+    color: #b52633;
+}
+.row input ,
+select
+{
+    width: 82%;
+    padding: 13px;
+    position: relative;
+    top: -10px;
+    border-radius: 12px;
+    border: 1px solid;
+    outline: none;
+    font-size: 17px; 
+    background-color:transparent;
+
+}
+.row input:focus
+{
+    opacity: 0.7;
+    border-color:rgb(253, 171, 171) ;
+}
+
+.button
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.btn
+{
+    padding: 19px 151px;
+    font-size: 23px;
+    border-radius: 34px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    outline: none;
+}
+
+/*
+**********
+* Result *
+**********
+*/
+.head
+{
+    margin: 0;
+    position: relative;
+    top: -57px;
+    height: 10%;
+    background-color: #8f1d25;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+}
+.head span
+{
+    font-size: 23px;
+    position: relative;
+    top: 24px;
+}
+.result
+{
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    position: relative;
+    top: -57px;
+    color: #be1823;
+    margin-bottom: -27px;
+    text-align: center;
+    padding: 10px;
+    font-size: 23px;
+    padding-top: 23px;
+}
+table 
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;    
+    margin-left: 18px;    
+    display: inline;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+    width: 50%;
+    text-align: center;
+}
